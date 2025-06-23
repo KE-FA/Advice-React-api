@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-font: "Ancizar Sans", sans-serif;
+  --secondary-font: "Great Vibes", cursive;
+  --color-primary: #222831;
+}
+
+html {
+  font-size: 10px;
+  font-size: 62.5%;
+  padding: 2rem 1rem;
+ 
+}
+
+.body {
+  font-size: 1.6rem;
+}
+
+.advice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+ text-align: center;
+ gap:1rem;
+}
+
+.advice-gen{
+font-family: var(--primary-font);
+font-weight: 900;
+font-size: 30px;
+}
+
+.advice-p{
+font-size: 18px;
+}
+
+.btn-advice{
+  padding: .8rem .7rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-family: var(--primary-font);
+
+}
+
+.result{
+  font-size: 15px;
+}
