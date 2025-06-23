@@ -1,12 +1,29 @@
-# React + Vite
+# 🧠 Advice Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches random advice from the [Advice Slip API](https://api.adviceslip.com/) and displays it to the user. A loading spinner is shown while fetching new advice.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches random advice on page load and on button click
+- Displays a loading spinner while waiting for a response
+- Simple and clean UI
+- Error handling for failed fetch attempts
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Hooks)
+- React Spinners (`react-spinners`)
+- CSS for styling
+- [Advice Slip API](https://api.adviceslip.com/) as data source
+
+## 📦 Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/advice-generator-app.git
+   cd Advice-api
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
